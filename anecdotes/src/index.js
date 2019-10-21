@@ -27,7 +27,7 @@ const App = props => {
       </p>
       <button onClick={vote}>vote</button>
       <button onClick={nextAnecdote}>next anecdote</button>
-      <h1>Anecdote of the day</h1>
+      <h1>Anecdote with most votes</h1>
       <p>
         {props.anecdotes[mostVotesIndex]}
         <br />
